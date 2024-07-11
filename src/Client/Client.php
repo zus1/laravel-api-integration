@@ -2,9 +2,9 @@
 
 namespace Zus1\Api\Client;
 
-use App\Services\ApiIntegration\Interface\RequestInterface;
-use App\Services\ApiIntegration\Interface\ResponseInterface;
-use App\Services\ApiIntegration\Response\Response;
+use Zus1\Api\Interface\RequestInterface;
+use Zus1\Api\Interface\ResponseInterface;
+use Zus1\Api\Response\Response;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\App;
 use Symfony\Component\Mime\FileinfoMimeTypeGuesser;

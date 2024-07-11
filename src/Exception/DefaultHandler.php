@@ -2,9 +2,9 @@
 
 namespace Zus1\Api\Exception;
 
-use App\Services\ApiIntegration\Helper\JsonHelper;
-use App\Services\ApiIntegration\Interface\ExceptionHandlerInterface;
-use App\Services\ApiIntegration\Interface\RequestInterface;
+use Zus1\Api\Helper\JsonHelper;
+use Zus1\Api\Interface\ExceptionHandlerInterface;
+use Zus1\Api\Interface\RequestInterface;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Log;
